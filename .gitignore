@@ -1,69 +1,41 @@
-# Prerequisites
-*.d
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# dependencies
+node_modules/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
 
-# Linker files
-*.ilk
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
 
-# Debugger Files
-*.pdb
+# Metro
+.metro-health-check*
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
 
+# macOS
+.DS_Store
+*.pem
 
-# Fortran module files
-*.mod
-*.smod
+# local env files
+.env*.local
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# typescript
+*.tsbuildinfo
 
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
-*.tmp
-*.log
-*.bak
-*.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+# generated native folders
+/ios
+/android
